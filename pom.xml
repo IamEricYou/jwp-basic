@@ -11,7 +11,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<org.springframework.version>4.2.5.RELEASE</org.springframework.version>
-		<tomcat.version>8.0.15</tomcat.version>
+		<tomcat.version>8.5.51</tomcat.version>
 	</properties>
 
 	<dependencies>
@@ -96,7 +96,7 @@
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-logging-juli</artifactId>
-			<version>${tomcat.version}</version>
+			<version>8.5.2</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
